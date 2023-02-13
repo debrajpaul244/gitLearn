@@ -1,10 +1,12 @@
 import "./App.css";
-import CardInner from "./components/CardInner";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import ReactBootstrap from "./components/ReactBootstrap/ReactBootstrap";
 
 function App() {
   return (
     <div className="App">
-      <CardInner />
+      <ReactBootstrap />
     </div>
   );
 }
