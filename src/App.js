@@ -1,12 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import ReactBootstrap from "./components/ReactBootstrap/ReactBootstrap";
+import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
 
 function App() {
   return (
     <div className="App">
-      <ReactBootstrap />
+      <ConditionalRendering />
     </div>
   );
 }
