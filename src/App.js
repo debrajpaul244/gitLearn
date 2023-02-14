@@ -1,12 +1,13 @@
+import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
+import TodoApp from "./components/TodoApp/TodoApp";
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRendering />
+      <TodoApp />
     </div>
   );
 }
