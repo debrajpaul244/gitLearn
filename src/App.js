@@ -2,12 +2,10 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import TodoApp from "./components/TodoApp/TodoApp";
-
 function App() {
   return (
     <div className="App">
-      <TodoApp />
+      <h1>welcome</h1>
     </div>
   );
 }
