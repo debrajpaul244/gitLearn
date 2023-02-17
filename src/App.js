@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import UseEffectLearn from "./components/UseEffect/UseEffect";
+import PropTypes from "./components/PropTypes";
 
 function App() {
   return (
     <div className="App">
-      <UseEffectLearn />
+      <PropTypes />
     </div>
   );
 }
