@@ -1,7 +1,12 @@
 import React from "react";
+import Users from "./Users";
 
 const PropTypes = () => {
-  return <div>PropTypes</div>;
+  return (
+    <React.Fragment>
+      <Users />
+    </React.Fragment>
+  );
 };
 
 export default PropTypes;
